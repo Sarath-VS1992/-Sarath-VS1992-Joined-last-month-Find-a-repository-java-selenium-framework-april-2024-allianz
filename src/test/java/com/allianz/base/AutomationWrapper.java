@@ -20,7 +20,7 @@ public class AutomationWrapper {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php");
 	}
 	
-	//@AfterTest
+	@AfterTest
 	public void teardown()
 	{
 		driver.quit();
