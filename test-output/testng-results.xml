@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-17T23:05:07 PDT" name="Default suite" finished-at="2024-04-17T23:05:33 PDT" duration-ms="26688">
+  <suite started-at="2024-04-17T23:19:07 PDT" name="Default suite" finished-at="2024-04-17T23:19:26 PDT" duration-ms="18063">
     <groups>
     </groups>
-    <test started-at="2024-04-17T23:05:07 PDT" name="Default test" finished-at="2024-04-17T23:05:33 PDT" duration-ms="26688">
+    <test started-at="2024-04-17T23:19:07 PDT" name="Default test" finished-at="2024-04-17T23:19:26 PDT" duration-ms="18063">
       <class name="com.allianz.test.AddEmployeeTest">
-        <test-method is-config="true" signature="browserOpen()[pri:0, instance:com.allianz.test.AddEmployeeTest@2e385cce]" started-at="2024-04-17T23:05:07 PDT" name="browserOpen" finished-at="2024-04-17T23:05:23 PDT" duration-ms="16120" status="PASS">
+        <test-method is-config="true" signature="browserOpen()[pri:0, instance:com.allianz.test.AddEmployeeTest@2ddc9a9f]" started-at="2024-04-17T23:19:08 PDT" name="browserOpen" finished-at="2024-04-17T23:19:17 PDT" duration-ms="9554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="uploadDisplayPicTest(java.lang.String,java.lang.String)[pri:0, instance:com.allianz.test.AddEmployeeTest@2e385cce]" started-at="2024-04-17T23:05:23 PDT" name="uploadDisplayPicTest" data-provider="validData" finished-at="2024-04-17T23:05:33 PDT" duration-ms="10437" status="PASS">
+        <test-method signature="uploadDisplayPicTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.allianz.test.AddEmployeeTest@2ddc9a9f]" started-at="2024-04-17T23:19:17 PDT" name="uploadDisplayPicTest" data-provider="validData" finished-at="2024-04-17T23:19:25 PDT" duration-ms="7951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,10 +23,19 @@
                 <![CDATA[admin123]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[File type not allowed]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadDisplayPicTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.allianz.test.AddEmployeeTest@2ddc9a9f]" started-at="2024-04-17T23:19:25 PDT" name="teardown" finished-at="2024-04-17T23:19:26 PDT" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.allianz.test.AddEmployeeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
