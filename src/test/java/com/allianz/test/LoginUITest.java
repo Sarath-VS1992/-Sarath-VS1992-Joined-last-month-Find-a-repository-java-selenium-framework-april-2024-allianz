@@ -1,20 +1,26 @@
 package com.allianz.test;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import com.allianz.base.AutomationWrapper;
 
-public class LoginUITest {
+public class LoginUITest extends AutomationWrapper {
 
-	@Test (invocationCount = 3)
-	public void titleTest()
-	
-	{
-		System.out.println("Test run successfuly");
-	}
-	
 	@Test
-	public void discriptionOfTheSite()
+	public void textPrintingTest()
+
 	{
-		System.out.println("Running to get discription of the Website");
+		
+		String actualtextVersion = driver.findElement(By.xpath("//p[contains(normalize-space(),'OS')]")).getText();
+		System.out.println(actualtextVersion);
+	}
+
+	@Test
+	public void footerOfTheSite() {
+		
+		String actualfootertextVersion = driver.findElement(By.xpath("//p[contains(normalize-space(),'HRM OS')]"))
+				.getText();
+		System.out.println(actualfootertextVersion);
 	}
 
 }
